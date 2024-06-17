@@ -1,0 +1,93 @@
+* {
+    margin: 100px auto;
+}
+
+#customerCenterContainer {
+    width: 1200px;
+    text-align: center;
+
+}
+
+#customerCenterContainer_title {
+    font-size: 35px;
+    width: 1200px;
+    text-align: center;
+    font-weight: bold;
+    margin: 50px;
+}
+
+#customerCenterContainer a {
+    text-decoration: none;
+    color: black;
+}
+
+/* 내용 들어가는 전체 */
+#customerCenterContainer_body {
+    width: 1200px;
+}
+
+/* .customerCenter_box{
+    box-sizing: border-box;
+    display: inline-block;
+} */
+
+/* 왼쪽 메뉴 창 */
+
+#customerCenterContainer_left {
+    width: 200px;
+    display: inline-block;
+}
+
+#customerCenterContainer_left_title {
+    width: 200px;
+    height: 120px;
+    border: 1px solid rgb(233, 227, 227);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(233, 227, 227);
+}
+
+#title-margin {
+    margin: 35px 0;
+}
+
+.customerCenterContainer_left_1 {
+    width: 200px;
+    height: 100px;
+    border-bottom: 1px solid rgb(233, 227, 227);
+    border-left: 1px solid rgb(233, 227, 227);
+    border-right: 1px solid rgb(233, 227, 227);
+}
+
+.left_margin {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+/* 가운데 창 */
+#customerCenterContainer_center {
+    width: 900px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.customerCenterContainer_center_1 {
+    font-size: 20px;
+    border: 1px solid rgb(233, 227, 227);
+    width: 800px;
+    height: 70px;
+    margin: 20px;
+}
+
+.center-margin {
+    margin: 20px;
+    text-align: left;
+}
+
+.center-margin-span {
+    color: blue;
+}

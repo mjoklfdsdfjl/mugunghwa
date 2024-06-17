@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/customerCenter_Main_notice.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+</head>
+
+<body>
+<th:block th:include="layouts/header"></th:block>
+    <div id="customerCenterContainer">
+        <div id=customerCenterContainer_title>고객만족센터</div>
+
+        <div id=customerCenterContainer_body>
+            <!-- 왼쪽 -->
+            <div id="customerCenterContainer_left" class="customerCenter_box">
+                <div id="customerCenterContainer_left_title">
+                    <div id="title-margin">FAQ</div>
+                </div>
+                <div class="customerCenterContainer_left_1">
+                    <br>
+                    <div class="left_margin"><a href="/customerCenter/main">공지사항</a></div>
+                </div>
+                <div class="customerCenterContainer_left_1">
+                    <br>
+                    <div class="left_margin"><a href="/customerCenter/faq">FAQ</a></div>
+                </div>
+                <div class="customerCenterContainer_left_1">
+                    <br>
+                    <div class="left_margin"><a href="/customerCenter/board">게시판 문의</a></div>
+                </div>
+            </div>
+
+            <!-- 가운데 -->
+            <!-- 공지사항-->
+            <div id="customerCenterContainer_center" class="customerCenter_box">
+                <div class="customerCenterContainer_center_1">
+                    <details class="cust_svc_faq_detail_1">
+                        <summary value="1"><span class="details-span">[Q]&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp배송관련
+                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp[배송] 보통 주문시 배송은 언제끔 되나요?</span></summary>
+                        <br>
+                            <p>영업일 기준으로 주문일로부터 7-8일 정도 소요됩니다.</p>
+                            <p>배송환경, 자연재해 등에 따라 다소 시일이 걸릴 수 있는 점은 양해 부탁드립니다.</p>
+                    </details>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <th:block th:include="layouts/footer"></th:block>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/headfoot.js"></script>
+</body>
+
+</html>

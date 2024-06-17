@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:fragment="header">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--headerFragment 선언-->
+
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/header.css">
+</head>
+<body>
+<div >
+<header>
+
+    <div id="header_line">
+        <ul>
+            <li><a href="/login">로그인</a></li>
+            <li><a href="/join">회원가입</a></li>
+            <li><a href="#">고객센터</a></li>
+            <li><a href="#">배송안내</a></li>
+        </ul>
+    </div>
+    <div class="header_logo">
+        <div id="header_space">
+            <div id="logo_image"></div>
+            <div id="header_search">
+                <input type="search" id="header_type">
+                <button type="submit" id="header_button"></button>
+            </div>
+            <div id="header_icon">
+                <div id="header_mypage"></div>
+                <div id="header_delivery"></div>
+                <div id="header_basket"></div>
+            </div>
+        </div>
+    </div>
+    <div class="main_menu">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">전통기념품</a>
+                    <ul class="submenu">
+                        <li><a href="#">열쇠고리</a></li>
+                        <li><a href="#">자석</a></li>
+                        <li><a href="#">문구</a></li>
+                        <li><a href="#">카드/옆서</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">나전칠기</a>
+                    <ul class="submenu">
+                        <li><a href="#">보석함</a></li>
+                        <li><a href="#">쌍합</a></li>
+                        <li><a href="#">병풍/쟁반</a></li>
+                        <li><a href="#">자개거울</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">섬유공예</a>
+                    <ul class="submenu">
+                        <li><a href="#">티셔츠</a></li>
+                        <li><a href="#">한복인형</a></li>
+                        <li><a href="#">한복액자</a></li>
+                        <li><a href="#">와인커버</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">목공예</a>
+                    <ul class="submenu">
+                        <li><a href="#">전통탈</a></li>
+                        <li><a href="#">탈액자</a></li>
+                        <li><a href="#">오리원앙</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">금속공예</a>
+                    <ul class="submenu">
+                        <li><a href="#">문종</a></li>
+                        <li><a href="#">주물종</a></li>
+                        <li><a href="#">액자</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- <ul id="header_list">
+       <li><a href="#">전통기념품</a></li>
+       <li><a href="#">나전칠기</a></li>
+       <li><a href="#">섬유공예</a></li>
+       <li><a href="#">목공예</a></li>
+       <li><a href="#">기념품</a></li>
+   </ul> -->
+
+</header>
+</div>
+<script src="/static/js/jquery.js"></script>
+<script src="/static/js/headfoot.js"></script>
+</body>
+</html>

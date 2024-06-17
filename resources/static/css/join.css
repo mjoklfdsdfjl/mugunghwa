@@ -1,0 +1,373 @@
+  /* 바디 */
+        body {
+            background-color: rgb(240, 118, 139);
+        }
+
+        #signUpWrapper {
+            margin: 30px auto;
+            width: 460px;
+            height: 1805px;
+            border: 1px solid rgb(240, 118, 139);;
+            border-radius: 15px;
+            background-color: #fff;
+        }
+
+        #join_top_img {
+           margin: 20px 0 0 20px;
+        }
+
+        #join_top_main {
+        margin: -32px 0 20px 20px;
+        }
+
+        #join_top_main a {
+
+           color: rgb(240, 118, 139);
+           font-size: 12px;
+        }
+
+        #signUpContent {
+            margin: 30px;
+        }
+
+        #signUpH1 {
+            text-align: center;
+        }
+
+
+        .signUpLabel {
+            width: 450px;
+            font-weight: bold;
+        }
+
+
+        .signUpInput {
+            width: 350px;
+            font-size: 15px;
+            border: 0;
+            margin: 0px 5px 5px 10px;
+        }
+
+        .signUpBox {
+            width: 400px;
+            height: 30px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        .signUpBox1 {
+            width: 230px;
+            height: 30px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        .signUpBox2 {
+            width: 300px;
+            height: 30px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        #userAdd {
+            width: 350px;
+            height: 120px;
+            border: 0;
+            margin: 15px;
+            font-size: 15px;
+        }
+
+        .signUpTextarea {
+            width: 400px;
+            height: 150px;
+            border: 1px solid black;
+            border-radius: 15px;
+
+        }
+
+
+        .error_next_box {
+            /* margin-top: 9px; */
+            font-size: 12px;
+            color: red;
+            width: 380px;
+            height: 15px
+        }
+
+
+
+        .signUpSpan {
+            font-size: 15px;
+            color: #999090;
+        }
+
+        #birthDay {
+            width: 250px;
+            font-size: 15px;
+            border: 0;
+            margin: 5px 10px;
+        }
+
+        #gender {
+            width: 200px;
+            font-size: 15px;
+            border: 0;
+            margin: 5px 10px;
+        }
+
+
+        .naCiSel {
+            width: 150px;
+            font-size: 15px;
+            border: 0;
+            margin: 0 0 0 20px;
+        }
+
+        .join_hr {
+        margin: 20px 40px;
+        }
+
+        #join_check_div_all {
+           margin: 0 40px;
+
+        }
+
+
+
+                  .join_check_div {
+                  margin: 0 60px;
+                  }
+
+                .join_check_span {
+                color: rgb(240, 118, 139);
+                }
+
+                a {
+                    text-decoration: none;
+
+                }
+
+        #btnJoin {
+            width: 400px;
+            height: 50px;
+            padding: 10px;
+            cursor: pointer;
+            background-color: rgb(240, 118, 139);
+            font-size: 20px;
+            text-align: center;
+            color: #fff;
+            border: 0;
+            border-radius: 10px;
+            margin: 0px 30px;
+        }
+
+
+
+        /* 모달1 */
+        #modal {
+            display: none;
+        }
+
+        .modal-btn {
+            background-color: rgb(240, 118, 139);
+            color: white;
+            padding: 2px;
+            text-align: center;
+            display: inline-block;
+            font-size: 12px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+
+        .dialog {
+            display: none;
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 10;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        .dialog>.tb {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        .dialog>.tb .inner {
+            width: 100%;
+            padding: 20px;
+            background: #fff;
+            border-radius: 16px;
+        }
+
+        .dialog .top {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            justify-content: space-between;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+
+        .dialog .title {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .dialog .ct {
+            max-height: 60vh;
+            height: 60vh;
+            overflow-y: auto;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            background-color: #fff;
+        }
+
+        input[id="modal"]:checked+label+.dialog {
+            display: block;
+        }
+
+        .close {
+            font-size: 25px;
+            cursor: pointer;
+        }
+
+        /* 모달2 */
+        #modal_2 {
+            display: none;
+        }
+
+        .modal-btn_2 {
+            background-color: rgb(240, 118, 139);
+            color: white;
+            padding: 2px;
+            text-align: center;
+            display: inline-block;
+            font-size: 12px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .dialog .tb_2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        .dialog .inner_2 {
+            width: 100%;
+            padding: 20px;
+            background: #fff;
+            border-radius: 16px;
+        }
+
+        .dialog .top_2 {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            justify-content: space-between;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+
+        .dialog .ct_2 {
+            max-height: 60vh;
+            height: 60vh;
+            overflow-y: auto;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            background-color: #fff;
+        }
+
+        input[id="modal_2"]:checked+label+.dialog {
+            display: block;
+        }
+
+        .close_2 {
+            font-size: 25px;
+            cursor: pointer;
+        }
+
+
+
+        /* 모달3 */
+        #modal_3 {
+            display: none;
+        }
+
+        .modal-btn_3 {
+            background-color: rgb(240, 118, 139);
+            color: white;
+            padding: 2px;
+            text-align: center;
+            display: inline-block;
+            font-size: 12px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .dialog {
+            display: none;
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 10;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        .dialog>.tb_3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        .dialog>.tb_3 .inner_3 {
+            width: 100%;
+            padding: 20px;
+            background: #fff;
+            border-radius: 16px;
+        }
+
+        .dialog .top_3 {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            justify-content: space-between;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+
+        .dialog .title {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .dialog .ct_3 {
+            max-height: 60vh;
+            height: 60vh;
+            overflow-y: auto;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            background-color: #fff;
+        }
+
+        input[id="modal_3"]:checked+label+.dialog {
+            display: block;
+        }
+
+        .close_3 {
+            font-size: 25px;
+            cursor: pointer;
+        }

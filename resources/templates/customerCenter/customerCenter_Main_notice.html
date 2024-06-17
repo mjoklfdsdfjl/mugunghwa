@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/customerCenter_Main_notice.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+</head>
+
+<body>
+<th:block th:include="layouts/header"></th:block>
+
+<div id="customerCenterContainer">
+    <div id=customerCenterContainer_title>고객만족센터</div>
+
+    <div id=customerCenterContainer_body>
+        <!-- 왼쪽 -->
+        <div id="customerCenterContainer_left" class="customerCenter_box">
+            <div id="customerCenterContainer_left_title">
+                <div id="title-margin">공지사항</div>
+            </div>
+            <div class="customerCenterContainer_left_1">
+                <br>
+                <div class="left_margin"><a href="/customerCenter/main">공지사항</a></div>
+            </div>
+            <div class="customerCenterContainer_left_1">
+                <br>
+                <div class="left_margin"><a href="/customerCenter/faq">FAQ</a></div>
+            </div>
+            <div class="customerCenterContainer_left_1">
+                <br>
+                <div class="left_margin"><a href="/customerCenter/board">게시판 문의</a></div>
+            </div>
+        </div>
+
+        <!-- 가운데 -->
+        <!-- 공지사항-->
+        <div id="customerCenterContainer_center" class="customerCenter_box">
+            <div class="customerCenterContainer_center_1">
+                <div class="center-margin"><a href="/customerCenter/notice_1"><span class="center-margin-span">[공지]</span> 한국의 해를 맞아 쇼핑몰 할인
+                    행사를 진행하고 있습니다.</a></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<th:block th:include="layouts/footer"></th:block>
+<script src="/js/jquery.js"></script>
+<script src="/js/headfoot.js"></script>
+</body>
+</body>
+
+
+</html>
